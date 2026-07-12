@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: #f8f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+
+  h1 {
+    color: #4f46e5;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  span {
+    color: #8b5cf6;
+  }
+
+  p {
+    color: #999;
+    font-style: italic;
+    margin-top: 5px;
+  }
+}
+
+.form-container {
+  width: 420px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    text-align: center;
+    color: #4f46e5;
+    margin-bottom: 30px;
+  }
+}
+
+.input-group {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #5f6774;
+    color: white;
+    font-size: 15px;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: #d1d5db;
+  }
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+
+  a {
+    font-size: 13px;
+    color: #7c3aed;
+    text-decoration: none;
+  }
+}
+
+.button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.primary-button {
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background: #4338ca;
+}
+
+.register-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+
+  a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+  font-size: 13px;
+
+  .footer-links {
+    display: flex;
+    gap: 25px;
+
+    a {
+      color: #888;
+      text-decoration: none;
+    }
+  }
+}
